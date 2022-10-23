@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
          :root {
-            --font-style: 'Nunito Sans', sans-serif;
+            --font-style: 'Abril Fatface', sans-serif;
         }
         
         * {
