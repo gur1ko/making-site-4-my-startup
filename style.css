@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@1,200;1,300&display=swap');
 
 * {
   padding: 0;
@@ -9,7 +9,7 @@
 html {
 
   font-size: 20px;
-  font-family: 'Abril Fatface', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: BLACK;
 }
 
@@ -107,6 +107,24 @@ animation-delay: 1.5s;
 }
 /* End Hero Section */
 
+/*  Services Section*/
+#serrvices{}
+#services{} .services {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#services .section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+}
 /* Keyframes */
 @keyframes text_reveal_box{
   50%{
