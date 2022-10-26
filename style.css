@@ -119,11 +119,42 @@ animation-delay: 1.5s;
 #services .section-title {
   font-size: 4rem;
   font-weight: 300;
-  color: white;
+  color: black;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: .2rem;
   text-align: center;
+}
+
+
+#services .service-top p {
+  font-size: 1.4rem;
+  margin-top: 5px;
+  line-height: 2.5rem;
+  font-weight: 300px;
+  letter-spacing: .05rem;
+}
+
+#services .service-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#services .service-item {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(img/top-view-arrangement-natural-material-stationery_23-2148898233.webp);
+  background-size: cover;
+  margin: 30px 5%;
+  color: black;
+
 }
 /* Keyframes */
 @keyframes text_reveal_box{
